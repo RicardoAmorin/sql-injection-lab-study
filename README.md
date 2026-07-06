@@ -25,7 +25,7 @@ O objetivo deste projeto foi compreender como uma vulnerabilidade de SQL Injecti
 
 Foi realizado o acesso ao sistema vulnerável disponibilizado durante o curso.
 
-![Login](images/1,jpeg)
+![Login](images/1.peg)
 
 ---
 
