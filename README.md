@@ -25,7 +25,7 @@ O objetivo deste projeto foi compreender como uma vulnerabilidade de SQL Injecti
 
 Foi realizado o acesso ao sistema vulnerável disponibilizado durante o curso.
 
-![Login](images/01.png)
+![Login](images/1,jpeg)
 
 ---
 
@@ -33,7 +33,7 @@ Foi realizado o acesso ao sistema vulnerável disponibilizado durante o curso.
 
 Utilizei o Burp Suite para interceptar a requisição enviada pelo formulário de login.
 
-![Burp](images/02.png)
+![Burp](images/2.jpeg)
 
 ---
 
@@ -41,7 +41,7 @@ Utilizei o Burp Suite para interceptar a requisição enviada pelo formulário d
 
 A requisição HTTP foi salva em um arquivo para utilização no sqlmap.
 
-![Request](images/03.png)
+![Request](images/3.jpeg)
 
 ---
 
@@ -49,7 +49,7 @@ A requisição HTTP foi salva em um arquivo para utilização no sqlmap.
 
 O sqlmap identificou uma vulnerabilidade de SQL Injection.
 
-![SQLMap](images/.png)
+![SQLMap](images/4.jpeg)
 
 ---
 
@@ -59,7 +59,7 @@ Foi demonstrado o impacto da vulnerabilidade em ambiente controlado.
 
 > As informações sensíveis foram ocultadas nesta documentação.
 
-![Resultado](images/05.png)
+![Resultado](images/5.jpeg)
 
 ---
 
