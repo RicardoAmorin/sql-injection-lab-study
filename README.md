@@ -80,3 +80,23 @@ Foi demonstrado o impacto da vulnerabilidade em ambiente controlado.
 Este estudo foi realizado **exclusivamente em ambiente de laboratório autorizado**, com finalidade educacional.
 
 Todo o crédito pelo laboratório pertence ao canal **AulasHack** e ao curso **Dominando o Pentest Web**.
+
+---
+
+## 🛡️ Prevenção e limites do estudo
+
+Este projeto documenta a identificação e a exploração de SQL Injection em um laboratório autorizado. A implementação e o teste de uma correção ainda não fazem parte deste estudo.
+
+A principal medida de prevenção é utilizar consultas parametrizadas, mantendo os valores recebidos do usuário separados da estrutura do comando SQL.
+
+Outras medidas complementares incluem:
+
+- Validar as entradas conforme as regras da aplicação.
+- Limitar as permissões da conta utilizada para acessar o banco.
+- Evitar expor detalhes internos do banco em mensagens de erro.
+
+A validação de entradas não substitui o uso de consultas parametrizadas.
+
+### Próxima etapa
+
+Criar um exemplo local comparando uma consulta vulnerável com uma versão parametrizada e verificar o comportamento das duas implementações.
